@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-decoration: none;
+    font-family: "Ojuju", sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.listall{
+    border: 1px solid #838181;
+    border-radius: 8px;
+    width: 1000px;
+}
+
+.list_title{
+    background-color: #103d3d;
+    color: #fff;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom: 1px solid #838181;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.list1{
+    padding: 20px 30px;
+}
+
+/* --------- form ----------- */
+
+.list1 form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.list1 form input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #838181;
+}
+
+form input:focus{
+    border-color: 3px solid #5e8c96;
+}
+
+#btn1{
+    width: 80px;
+    padding: 6px 10px;
+    background-color: #4f7474;
+    color: #fff;
+    border: 1px solid #327676;
+    border-radius: 20px;
+    margin-bottom: 4px;
+}
+
+.list1:nth-last-child(1){
+    border-top: 1px solid #838181;
+    margin-bottom: 10px;
+}
+
+.list1 h5{
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #2e3131;
+}
+
+#delete{
+    width: 120px;
+    padding: 6px 10px;
+    background-color: #4f7474;
+    border: 1px solid #327676;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 14px;  
+}
+
+/* ---------------ul------------------ */
+
+ul{
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+li{
+    list-style: none;
+    padding: 5px 10px;
+    border-bottom: 1px solid #838181;
+}
+
+li:last-child{
+    border: none;
+}
+
+li a{
+    color: #4f7474;
+    font-size: 18px; 
+}
